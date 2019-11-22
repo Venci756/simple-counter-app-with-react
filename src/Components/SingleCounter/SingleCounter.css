@@ -1,0 +1,31 @@
+.text{
+    color: yellowgreen; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    font-weight: 300;
+    line-height: 32px;
+   
+    text-align: center; 
+    text-shadow: 3px 2px 1px rgb(145, 11, 11);
+
+}
+
+.counterOutput{
+    color: rgb(73, 230, 25); 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px; 
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 72px; 
+    text-align: center; 
+    text-shadow: 3px 2px 1px rgb(145, 11, 11);
+   
+}
+
+.reset{
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    background-color: red;
+    
+}

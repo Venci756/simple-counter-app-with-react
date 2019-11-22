@@ -1,26 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
+import FirstComponent from './Components/learning-examples/FirstComponent';
+import SecondComponent from './Components/learning-examples/SecondComponent';
+import ThirdComponent from './Components/learning-examples/ThirdComponent';
+import Counter from './Components/Counter/Counter';
+import SingleCounter from './Components/SingleCounter/SingleCounter';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+
+  render() {
+    //let style = { backgroundColor: "lightBlue" };
+    return (
+      <div className="App" >
+        <Counter />
+        <br></br>
+        <SingleCounter by={1}></SingleCounter>
+      </div>
+    );
+  }
 }
 
+class LearningComponents extends Component {
+  render() {
+    return (
+      <div className="LearningComponent" style="{style}">
+        <FirstComponent></FirstComponent>
+        <SecondComponent></SecondComponent>
+        <ThirdComponent />
+      </div>
+    );
+  }
+}
 export default App;

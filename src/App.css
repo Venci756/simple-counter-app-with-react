@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-image: url("https://www.sundaypost.com/wp-content/uploads/sites/13/2018/11/5beab8f4bc616.jpg");
+  background-color: #cccccc;
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .App-logo {
